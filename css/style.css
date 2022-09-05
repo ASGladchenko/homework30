@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.items {
+  padding: 30px;
+}
+.items .item {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: 2px solid black;
+  padding: 75px 90px;
+}
+.items .p {
+  font-size: 25px;
+}
+
+.active {
+  background-color: red;
+}
+
+.d-flex {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: grey 0 0 10px;
+  background-color: #a4c7d9;
+}
+
+/*# sourceMappingURL=style.css.map */
