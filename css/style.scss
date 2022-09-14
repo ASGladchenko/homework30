@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #acb0b6;
+}
+
+header {
+  background-color: #6d6d70;
+  color: white;
+
+  .container {
+    text-align: center;
+  }
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main {
+  .container {
+    padding: 20px 0 20px;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+
+      button {
+        width: 120px;
+        margin-right: 10px;
+      }
+
+      input {
+        margin-right: 10px;
+        width: 280px;
+        text-align: center;
+      }
+
+    }
+
+  }
+}
+.hi{
+    button{
+    width: 150px;
+      margin-right: 20px;
+  }
+}
+.worked{
+
+}
